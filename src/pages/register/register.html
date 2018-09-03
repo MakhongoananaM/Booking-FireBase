@@ -1,0 +1,36 @@
+<ion-content padding class="back1">
+
+    <ion-fab left top >
+        <button ion-fab mini color="light" (click)="Back()"><ion-icon name="arrow-dropleft"></ion-icon></button>
+      </ion-fab>
+    <br>
+    <br>
+
+  <div class="tax">
+  <ion-item class="ta1">
+    <ion-label floating>First Name</ion-label>
+    <ion-input type="text" [(ngModel)]="user.name"></ion-input>
+  </ion-item>
+  <ion-item class="ta1">
+    <ion-label floating>Last Name</ion-label>
+    <ion-input type="text" [(ngModel)]="user.surname"></ion-input>
+  </ion-item>
+  <ion-item class="ta1">
+    <ion-label floating>Address</ion-label>
+    <ion-input type="text" [(ngModel)]="user.address"></ion-input>
+  </ion-item>
+  <ion-item class="ta1">
+    <ion-label floating>Contact Number</ion-label>
+    <ion-input type="number" [(ngModel)]="user.contact"></ion-input>
+  </ion-item>
+  <ion-item class="ta1">
+    <ion-label floating>Email</ion-label>
+    <ion-input type="text" [(ngModel)]="user.email"></ion-input>
+  </ion-item>
+  <ion-item class="ta1">
+    <ion-label floating>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+  </ion-item>
+</div>
+  <button ion-button clear full (click)="register(user)" class="butt">Register</button>
+</ion-content>

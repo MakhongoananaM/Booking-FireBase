@@ -1,0 +1,39 @@
+page-book-me {
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+          
+        }
+      
+        .card-title {
+            position: absolute;
+            top: 5%;
+            font-size: 1.5em;
+   
+            font-weight: bold;
+            color: #fff;
+   
+             border:  none black  solid;
+             border-radius: 7px;
+             background-color: rgba(0, 0, 0, 0.226);
+             width: 40%;
+             text-align: center;
+             left:3%;
+   
+             p{
+               padding-left: 7%;
+               color: white;
+             }
+   
+          }
+        .card-subtitle {
+          font-size: 6.0em;
+          position: absolute;
+          top: 60%;
+          width: 100%;
+          color: #fff;
+        }
+      }
+}
